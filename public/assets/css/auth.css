@@ -1,0 +1,115 @@
+.auth-container {
+	background-color: #fff;
+	height: 100vh;
+}
+.log-in-wrapper {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  height: 100vh;	
+}
+.need-help-text:hover, .need-help-text h3:hover {
+  text-decoration: none;
+  color: #909090;
+}
+.need-help-text {
+  position: relative;
+  display: inline;
+}
+.need-help-text h3 {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #777777;
+  font-weight: 800;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  float: right;
+}
+.portal-log-in-container {
+	clear: both;
+}
+.portal-img-text-container {
+	text-align: center;
+}
+.portal-log-in-container img {
+	height: 50px;
+	margin-top: 60px;
+}
+.text-below-image {
+  color: #777777;
+  font-family: "Open Sans";
+  margin-top: 10px;
+  font-size: 23px;
+}
+.portal-log-in-container form {
+	max-width: 390px;
+	margin: 15px auto auto;
+}
+.form-group {
+	margin-top: 20px;
+	margin-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+}
+.login-input {
+	font-family: sans-serif;
+	display: block;
+  width: 100%;
+  height: 70px;
+  padding: 0 25px;
+  font-size: 18px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.login-input::placeholder {
+	color: #9c9c9c;
+}
+.login-checkbox {
+	position: relative;
+  display: block;
+  margin-bottom: 10px;
+}
+.login-checkbox label {
+  color: #777;
+  font-size: 15px;
+  cursor: pointer;
+  letter-spacing: .14px;
+}
+.login-checkbox label input {
+	position: relative;
+	top: 1px;
+	margin-right: 5px;
+}
+.login-btn-container {
+	margin-bottom: 15px;
+}
+.login-btn-container button {
+	color: #fff;
+  padding: 19px 0;
+  background-color: #0392cf;
+  border-color: #46b8da;
+  border-radius: 4px;
+  border: 0;
+  font-size: 18px;
+  width: 100%;
+  line-height: 1.42857143;
+}
+.forgot-password-container {
+	text-align: right;
+}
+.forgot-password-container a {
+	font-size: 15px;
+	color: #777777;
+	text-decoration: underline;
+  letter-spacing: .14px;
+}
