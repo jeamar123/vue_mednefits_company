@@ -1,14 +1,13 @@
 <script>
 // methods here
-let employee = {
+let home = {
   data() {
     return {
-      sampleData: false
+      sampleData: true
     };
   },
 };
 
-export default employee
-
+export default home;
 </script>
 
