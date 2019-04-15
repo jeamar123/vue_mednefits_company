@@ -1,6 +1,13 @@
 <script>
 // Methods here
+let overview = {
+  data() {
+    return {
+      sampleData: true
+    };
+  },
+};
 
-export default Overview
+export default overview
 </script>
 

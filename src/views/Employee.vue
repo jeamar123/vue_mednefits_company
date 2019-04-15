@@ -3,9 +3,9 @@
 
 <script>
 
-import Employee from '@/components/Employee'
+import employee from '@/components/employee'
 
-export default Employee
+export default employee
 
 </script>
 

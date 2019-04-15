@@ -1,6 +1,13 @@
 <script>
 // methods here
+let dashboard = {
+  data() {
+    return {
+      sampleData: true
+    };
+  },
+};
 
-export default Dashboard
+export default dashboard;
 </script>
 

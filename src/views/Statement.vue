@@ -3,9 +3,9 @@
 
 <script>
 
-import Statement from '@/components/Statement'
+import statement from '@/components/statement'
 
-export default Statement
+export default statement
 
 
 </script>

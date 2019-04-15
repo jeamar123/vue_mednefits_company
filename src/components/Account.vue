@@ -1,7 +1,13 @@
 <script>
 // Methods here
+let account = {
+  data() {
+    return {
+      sampleData: true
+    };
+  },
+};
 
-
-export default Account
+export default account
 </script>
 

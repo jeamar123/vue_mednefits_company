@@ -1,12 +1,11 @@
 <template>
-  <!-- html here  -->
 </template>
 
 <script>
 
-import Dashboard from '@/components/dashboard'
+import dashboard from '@/components/dashboard'
 
-export default Dashboard
+export default dashboard
 
 </script>
 

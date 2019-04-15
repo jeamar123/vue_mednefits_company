@@ -1,12 +1,11 @@
 <template>
-  <!-- html sub-nav of employee  -->
 </template>
 
 <script>
 
-import Overview from '@/components/Overview'
+import overview from '@/components/overview'
 
-export default Overview
+export default overview
 
 
 </script>

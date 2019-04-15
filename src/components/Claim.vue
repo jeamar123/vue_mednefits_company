@@ -1,7 +1,14 @@
 <script>
 
 // Methods here
+let claim = {
+  data() {
+    return {
+      sampleData: true
+    };
+  },
+};
 
-export default Claim
+export default claim
 </script>
 

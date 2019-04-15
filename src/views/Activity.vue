@@ -3,9 +3,9 @@
 
 <script>
 
-import Activity from '@/components/Activity'
+import activity from '@/components/activity'
 
-export default Activity
+export default activity
 
 
 </script>

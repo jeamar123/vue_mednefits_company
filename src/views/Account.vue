@@ -3,9 +3,9 @@
 
 <script>
 
-import Account from '@/components/Account'
+import account from '@/components/account'
 
-export default Account
+export default account
 
 
 </script>

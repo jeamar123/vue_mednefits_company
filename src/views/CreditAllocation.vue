@@ -1,12 +1,11 @@
 <template>
-<!-- html sub-nav of employee  -->
 </template>
 
 <script>
 
-import CreditAllocation from '@/components/CreditAllocation'
+import creditAllocation from '@/components/creditAllocation'
 
-export default CreditAllocation
+export default creditAllocation
 
 
 </script>

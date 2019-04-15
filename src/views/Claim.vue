@@ -3,9 +3,9 @@
 
 <script>
 
-import Claim from '@/components/Claim'
+import claim from '@/components/claim'
 
-export default Claim
+export default claim
 
 
 </script>

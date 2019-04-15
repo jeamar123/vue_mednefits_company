@@ -1,7 +1,14 @@
 <script>
 
 //Methods here
+let statement = {
+  data() {
+    return {
+      sampleData: true
+    };
+  },
+};
 
-export default Statement
+export default statement
 </script>
 

@@ -1,7 +1,13 @@
 <script>
 //Methods here
+let creditAllocation = {
+  data() {
+    return {
+      sampleData: true
+    };
+  },
+};
 
-
-export default CreditAllocation
+export default creditAllocation
 </script>
 

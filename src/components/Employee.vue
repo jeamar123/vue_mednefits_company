@@ -1,7 +1,14 @@
 <script>
 // methods here
+let employee = {
+  data() {
+    return {
+      sampleData: true
+    };
+  },
+};
 
-export default Employee
+export default employee
 
 </script>
 

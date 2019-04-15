@@ -1,7 +1,13 @@
 <script>
 // methods here 
+let activity = {
+  data() {
+    return {
+      sampleData: true
+    };
+  },
+};
 
-
-export default Activity
+export default activity
 </script>
 
