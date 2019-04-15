@@ -3,7 +3,7 @@
 let employee = {
   data() {
     return {
-      sampleData: true
+      sampleData: false
     };
   },
 };

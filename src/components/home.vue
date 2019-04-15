@@ -1,13 +1,13 @@
 <script>
-// Methods here
-let claim = {
+// methods here
+let home = {
   data() {
     return {
       sampleData: true
     };
-  }
+  },
 };
 
-export default claim;
+export default home;
 </script>
 

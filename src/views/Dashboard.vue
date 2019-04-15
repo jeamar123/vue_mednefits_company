@@ -1,11 +1,10 @@
 <template>
+  <router-view></router-view>
 </template>
 
 <script>
+import dashboard from "@/components/dashboard";
 
-import dashboard from '@/components/dashboard'
-
-export default dashboard
-
+export default dashboard;
 </script>
 
