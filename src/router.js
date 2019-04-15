@@ -6,6 +6,13 @@ import Router from 'vue-router'
 // axios.defaults.user_id = null;
 
 import Auth from './views/Auth.vue'
+import Dashboard from './views/Dashboard.vue'
+import Employee from './views/Employee.vue'
+import Claim from './views/Claim.vue'
+import Statement from './views/Statement.vue'
+import Account from './views/Account.vue'
+import Overview from './views/Overview.vue'
+import CreditAllocation from './views/CreditAllocation.vue'
 
 Vue.use(Router)
 
