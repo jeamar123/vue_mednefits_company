@@ -1,9 +1,10 @@
 <script>
+console.log('employee');
 // methods here
 let employee = {
   data() {
     return {
-      sampleData: true
+      sampleData: false
     };
   },
 };

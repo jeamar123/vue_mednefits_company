@@ -28,19 +28,19 @@ export default new Router({
       path: '/app',
       name: 'dashboard',
       redirect: '/app/dashboard',
-      component: Dashboard,
       meta: { auth: true },
-      children: [
-        // { name: 'Intro', path: '/app/dashboard', component: Intro },
-        { name: 'Employee', path: '/app/employee', component: Employee },
-        { name: 'Activity', path: '/app/activity', component: Activity },
-        { name: 'Claim', path: '/app/claim', component: Claim },
-        { name: 'Statement', path: '/app/statement', component: Statement },
-        { name: 'Account', path: '/app/account', component: Account },
-        // sub-nav of employee
-        { name: 'Overview', path: '/app/overview', component: Overview },
-        { name: 'CreditAllocation', path: '/app/creditAllocation', component: CreditAllocation },
-      ]
+      component: Dashboard,
+        children: [
+          { name: 'home', path: 'dashboard', component: Dashboard },
+          { name: 'Employee', path: 'employee', component: Employee },
+          { name: 'Activity', path: 'activity', component: Activity },
+          { name: 'Claim', path: 'claim', component: Claim },
+          { name: 'Statement', path: 'statement', component: Statement },
+          { name: 'Account', path: 'account', component: Account },
+          // sub-nav of employee
+          { name: 'Overview', path: 'overview', component: Overview },
+          { name: 'CreditAllocation', path: 'creditAllocation', component: CreditAllocation },
+        ]
     },
     
   ]
