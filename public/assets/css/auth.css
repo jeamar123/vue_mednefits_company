@@ -90,7 +90,7 @@
 	top: 1px;
 	margin-right: 5px;
 }
-.login-btn-container {
+.login-btn-container	 {
 	margin-bottom: 15px;
 }
 .login-btn-container button {
@@ -104,12 +104,20 @@
   width: 100%;
   line-height: 1.42857143;
 }
-.forgot-password-container {
+.forgot-password-container,
+.fp-login-container {
 	text-align: right;
 }
-.forgot-password-container a {
+.forgot-password-container a,
+.fp-login-container a {
 	font-size: 15px;
 	color: #777777;
 	text-decoration: underline;
   letter-spacing: .14px;
+}
+.forgot-password-container {
+	display: none;
+}
+.forgot-password-container .form-group {
+	margin-bottom: 35px;
 }
