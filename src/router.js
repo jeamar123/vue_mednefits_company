@@ -7,7 +7,8 @@ import Router from 'vue-router'
 
 import Auth from './views/Auth.vue'
 import Dashboard from './views/Dashboard.vue'
-import Home from './views/Home.vue'
+import Intro from './views/Intro.vue'
+import BenefitsDashboard from './views/Benefits-dashboard.vue'
 import Employee from './views/Employee.vue'
 import Activity from './views/Activity.vue'
 import Claim from './views/Claim.vue'
@@ -32,7 +33,8 @@ export default new Router({
       meta: { auth: true },
       component: Dashboard,
         children: [
-          { name: 'Home', path: 'dashboard', component: Home },
+          { name: 'Intro', path: 'dashboard', component: Intro },
+          { name: 'BenefitsDashboard', path: 'benefits-dashboard', component: BenefitsDashboard },
           { name: 'Employee', path: 'employee', component: Employee },
           { name: 'Activity', path: 'activity', component: Activity },
           { name: 'Claim', path: 'claim', component: Claim },
