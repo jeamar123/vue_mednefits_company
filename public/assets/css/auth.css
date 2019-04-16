@@ -3,6 +3,7 @@
 	height: 100vh;
 }
 .log-in-wrapper {
+	position: relative;
   width: 1170px;
   margin-right: auto;
   margin-left: auto;
@@ -10,15 +11,14 @@
   padding-left: 15px;
   height: 100vh;	
 }
-.need-help-text:hover, .need-help-text h3:hover {
+.need-help-text-container:hover, .need-help-text-container .need-help-text:hover {
   text-decoration: none;
   color: #909090;
 }
-.need-help-text {
-  position: relative;
+.need-help-text-container {
   display: inline;
 }
-.need-help-text h3 {
+.need-help-text-container .need-help-text {
   font-size: 14px;
   font-family: "Open Sans";
   color: #777777;
@@ -26,6 +26,72 @@
   padding-top: 15px;
   padding-bottom: 10px;
   float: right;
+}
+.need-help-text-container:hover div.tooltip-container {
+  visibility: visible;
+  right: 0;
+  top: 30px;
+  margin-top: 15px;
+  z-index: 999;
+}
+.tooltip-container {
+  position: absolute;
+  width: 310px;
+  color: #FFFFFF;
+  background: #f1eded;
+  height: auto;
+  padding: 35px 35px;
+  visibility: hidden;
+  z-index: 9999;
+}
+.tooltip-container h3 {
+	font-family: "Open Sans";
+	font-weight: 800;
+}
+.tooltip-container h3:hover {
+	text-decoration: none;
+  color: #909090;
+}
+.tooltip-container:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 90%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid #efefef;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+h3.tooltip-title {
+    color: #0392cf;
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+}
+h3.tooltip-phone-email-title {
+    color: #494949;
+    font-size: 18px;
+}
+h3.tooltip-phone-email-details {
+    color: #8a8a8a;
+    font-size: 16px;
+}
+h3.tooltip-phone-email-details {
+    color: #8a8a8a;
+    font-size: 16px;
+}
+.tooltip-phone-container {
+	margin-bottom: 45px;
+}
+h3.tooltip-phone-email-title {
+    color: #494949;
+    font-size: 18px;
+}
+h3.tooltip-phone-email-details {
+    color: #8a8a8a;
+    font-size: 16px;
 }
 .portal-log-in-container {
 	clear: both;
@@ -74,6 +140,12 @@
 .login-input::placeholder {
 	color: #9c9c9c;
 }
+.login-input:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
 .login-checkbox {
 	position: relative;
   display: block;
@@ -104,11 +176,11 @@
   width: 100%;
   line-height: 1.42857143;
 }
-.forgot-password-container,
+.fp-container,
 .fp-login-container {
 	text-align: right;
 }
-.forgot-password-container a,
+.fp-container a,
 .fp-login-container a {
 	font-size: 15px;
 	color: #777777;

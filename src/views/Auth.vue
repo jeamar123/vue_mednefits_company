@@ -3,7 +3,19 @@
 	  
 	  <div class="log-in-wrapper">
 	  	<div class="log-in-need-help-container">
-	  		<a href="#" class="need-help-text"><h3>Need help?</h3></a>
+	  		<a href="#" class="need-help-text-container">
+	  			<h3 class="need-help-text">Need help?</h3>
+	  			<div class="tooltip-container">
+						<h3 class="tooltip-title">We're here to help.</h3>
+						<div class="tooltip-phone-container">
+							<h3 class="tooltip-phone-email-title">You may ring us</h3>
+							<h3 class="tooltip-phone-email-details">+65 6254 7889</h3>
+							<h3 class="tooltip-phone-email-details">Mon - Fri 10:00 to 19:00</h3>
+						</div>
+						<h3 class="tooltip-phone-email-title">Drop us a note, anytime</h3>
+						<h3 class="tooltip-phone-email-details">happiness@mednefits.com</h3>
+					</div>
+				</a>
 	  	</div>
 	  	<div class="login-container">
 		  	<div class="portal-log-in-container">
@@ -26,7 +38,7 @@
 	  				<div class="login-btn-container">
 	  					<button>Log in</button>
 	  				</div>
-	  				<div class="forgot-password-container">
+	  				<div class="fp-container">
 	  					<a href="">Forgot password?</a>
 	  				</div>
 		  		</form>
