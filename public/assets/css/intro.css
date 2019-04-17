@@ -1,7 +1,6 @@
 .welcome-body-container {
   padding-top: 150px;
   padding-bottom: 50px;
-  height: 100vh; 
 	background-color: #fff;
 }
 .greet-container{
@@ -26,10 +25,16 @@
 	font-size: 16px;
 	width: 670px;
 }
+.body-content {
+  margin: 0 108px;
+  height: 100vh; 
+}
 .body-summary-content table {
 	width: 100%;
 }
-
+.body-summary-content p {
+  font-size: 16px;
+}
 .table-bordered {
   border: 1px solid #ddd;
 }
@@ -49,6 +54,13 @@
 }
 .table-bordered.summary-table>tbody>tr>td> img {
   height: 65px;
+}
+.table-bordered tbody td:nth-child(2) .required-info-text {
+	color: #777777;
+	margin-bottom: 10px;
+}
+.table-bordered tbody td:nth-child(2) div {
+	color: #9c9c9c;
 }
 .lets-go-container {
 	width: 100%;

@@ -90,10 +90,6 @@ body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) { overflow-y: v
   margin-left: auto;
 }
 
-.body-content {
-  margin: 0 108px;
-}
-
 .btn-info {
   line-height: 1.4;
   text-transform: uppercase;

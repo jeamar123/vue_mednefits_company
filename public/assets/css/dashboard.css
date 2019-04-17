@@ -1,3 +1,6 @@
+.main-ui-container {
+	height: 100vh;
+}
 .top-navbar-wrapper {
 	display: none;
 	width: 100%;

@@ -24,14 +24,10 @@
 	  							<span>1</span>
 	  							<h1>Select plan and provide company information</h1>
 	  						</th>
-	  					</tr>
-	  					<tr>
 	  						<th>
 	  							<span>2</span>
 	  							<h1>Input payment details and send payment</h1>
 	  						</th>
-	  					</tr>
-	  					<tr>
 	  						<th>
 	  							<span>3</span>
 	  							<h1>Enroll all full time employess into this plan</h1>
@@ -43,10 +39,8 @@
 	  						<td>
 	  							<img :src="'../assets/img/icons/verified.png'">
 	  						</td>
-	  					</tr>
-	  					<tr>
 	  						<td>
-	  							<span>Required Information</span>
+	  							<p class="required-info-text">Required Information:</p>
 	  							<div>
 	  								<p>Payee cheque information (company name, address,ACRA number) can be found in invoice</p>
 	  							</div>
@@ -54,8 +48,6 @@
 	  								<p>You may download the invoice from Welcome Email or the company portal under Account & Billing.</p>
 	  							</div>
 	  						</td>
-	  					</tr>
-	  					<tr>
 	  						<td>
 	  							<img :src="'../assets/img/icons/verified.png'">
 	  						</td>
