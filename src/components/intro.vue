@@ -3,8 +3,10 @@
 let intro = {
   data() {
     return {
-      sampleData: false
+      sampleData: true
     };
+  },
+  methods: {
   },
 };
 

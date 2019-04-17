@@ -52,7 +52,7 @@
             </div>
 
             <div class="fp-container">
-              <a href>Forgot password?</a>
+              <a href v-on:click.prevent>Forgot password?</a>
             </div>
           </form>
         </div>
